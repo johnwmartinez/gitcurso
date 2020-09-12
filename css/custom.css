@@ -2,3 +2,13 @@ body{
     text-align:center;
     font-family: Verdana;
 }
+
+.contenedorCuerpo
+{
+    max-width:1200px;
+    margin: 0 auto;
+}
+.contenedorCuerpo p
+{
+    line-height:1.5em;
+}
