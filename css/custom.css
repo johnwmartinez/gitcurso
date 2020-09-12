@@ -12,3 +12,56 @@ body{
 {
     line-height:1.5em;
 }
+#cabecera
+{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    max-width:1400px;
+    margin: 0 auto;
+    padding: 6px 10px;;
+}
+
+.logoContenedor
+{
+    background-color: yellowgreen;
+    border-radius: 100%;
+    height:140px;
+    width: 140px;
+    color:transparent;
+}
+#cabecera nav
+{
+    align-self: center;
+}
+#cabecera nav ul,
+#cabecera nav ul li
+{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+#cabecera nav ul li 
+{
+    display:inline-block;
+    vertical-align: top;
+}
+
+#cabecera nav ul li a
+{
+    color: teal;
+    display: block;
+    padding: 4px 10px;
+    text-decoration:none;
+}
+
+#cabecera nav ul li a:hover
+{
+    text-decoration:underline;
+    color:#000;
+}
+
+
+
+
